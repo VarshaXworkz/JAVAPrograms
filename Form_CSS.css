@@ -1,0 +1,73 @@
+p{
+    font-size: 20px;
+    color: rgb(0, 60, 255);
+    color: hsla(hue, saturation, lightness, alpha);
+}
+body{
+background-color: bisque;
+animation-name: changing_colour;
+animation-duration: 20s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+}
+@keyframes changing_colour{
+    0%{
+       background-color: chartreuse;
+       background-image: url("Sprinkle.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+       
+    }
+    25%{
+      background-color:  aqua;
+       background-image: url("Flowers.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+    50%{
+       background-color: rgb(255, 127, 246);
+        background-image: url("Sunset.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+    75%{
+      background-color: aquamarine;
+       background-image: url("Sunshine.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+    100%{
+       background-color: blueviolet;
+        background-image: url("Sprinkle2.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+}
+/* div is the block line element
+span is the inline element */
+div{
+    background-color: white;
+    margin-top: 200px;
+    margin-left: 500px;
+    height: 300px;
+    width: 500px;
+     border-top: crimson solid 5px;
+    border-bottom: crimson solid 5px;
+   border-right: crimson solid 5px;
+   border-left: crimson solid 5px ; 
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px 15px lightcoral;
+}
+input,label{
+    margin-top: 8px;
+    margin-left: 15px;
+}
+label{
+    font-size: 18px;
+}
+input{
+    background-color: bisque;
+    border-radius: 5px;
+    border-width: 2px;
+
+}

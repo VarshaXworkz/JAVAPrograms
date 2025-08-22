@@ -1,0 +1,27 @@
+/* Desendent Selector -all child and grand child will be styled*/
+/* div p{
+    background-color: blue;
+    font-size: 25px;
+    color: black;
+} */
+/* Child selector-Only direct child will be styled */
+/* div>p{
+    background-color: rgb(185, 23, 174);
+    font-size: 25px;
+    color: black;
+} */
+/* Adjuscent sibling selector-immediate sibling */
+ div+p{
+    background-color: rgb(185, 23, 174);
+    font-size: 25px;
+    color: black;
+} 
+
+/* General sibling-All the Siblings will be styled */
+/* div~p{
+     background-color: rgb(185, 23, 174);
+    font-size: 25px;
+    color: black;
+
+} */
+

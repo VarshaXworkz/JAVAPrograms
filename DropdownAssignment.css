@@ -1,0 +1,197 @@
+a {
+ 
+    text-decoration: none;
+    cursor: progress;
+}
+body{
+    height: auto;
+    margin: 0;
+}
+abbr[title] {
+  text-decoration: none;
+  color: rgb(222, 0, 15);
+}
+header{
+    font-weight: bolder;
+    margin: 0;
+    background-size: 100px;
+}
+.underline-input {
+  width: 50%;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid #444;
+  background: transparent;
+  outline: none;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.underline-input:focus,
+.underline-input:hover {
+  border: 1px solid #999;
+  border-radius: 5px;
+  background-color: white;
+  padding: 8px;
+}
+h1{
+    font-size: 5em;
+    margin-block-start:0px;
+    margin-block-end: 0px;
+    background-color: rgb(136, 206, 51);
+    text-align: center;
+
+}
+
+h2{
+    background-color:  rgb(136, 206, 51);
+    text-align: center;
+    margin: 0;
+    background-size: 20px;
+    margin-top: 135px;
+    font-size: 2em;
+
+}
+#navigate{
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+
+}
+.menu{
+ background-color: rgb(21, 8, 8);
+ margin: 0;
+}
+.menu li{
+    display: inline-block;
+    padding: 20px;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.menu li:hover{
+   background-color: rgb(110, 92, 92);
+}
+.menu li:nth-child(2):hover #dropdown_1{
+    display: block;
+}
+.menu li:nth-child(3):hover #dropdown_2{
+    display: block;
+}
+#dropdown_1 li{
+    display:block;
+}
+#dropdown_2 li{
+    display: block;
+}
+#dropdown_1,#dropdown_2{
+    position: absolute;
+    display: none;
+    background: rgb(20, 163, 211);
+    padding: 0;
+}
+li{
+    text-align: right;
+}
+.nav_right{
+    margin-left: 830px;
+    font-size: 25px;
+    color: white;
+}
+.nav_right1{
+    font-size: 23px;
+    color: white;
+}
+div{
+    background-color: rgb(213, 231, 148);
+    margin-top: 120px;
+    margin-left: 510px;
+    padding: 20px;
+    padding-right: 0;
+    height: 300px;
+    width: 500px;
+     border-top: rgb(220, 20, 177) solid 5px;
+    border-bottom:  rgb(220, 20, 177) solid 5px;
+   border-right: rgb(220, 20, 177) solid 5px;
+   border-left:  rgb(220, 20, 177) solid 5px ; 
+    border-radius: 10px;
+    box-shadow:  20px 20px 20px 20px  rgb(206, 203, 13);
+}
+input {
+  border: 1px solid #c32d2d;        
+  border-radius: 5px;
+  padding: 8px 12px;
+  background-color: #ab1d1d;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #9e2206;
+  box-shadow:  2px 2px 2px 2px  rgba(145, 13, 3, 0.5);
+}
+
+body{
+background-color: rgb(4, 161, 124);
+animation-name: changing_colour;
+animation-duration: 20s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+}
+@keyframes changing_colour{
+    0%{
+      
+       background-image: url("Red2.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+       
+    }
+    25%{
+     
+       background-image: url("Red.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+    50%{
+      
+        background-image: url("Red3.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+    75%{
+     
+       background-image: url("Red4.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+    100%{
+      
+        background-image: url("Red5.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+}
+input,label{
+    margin-top: 8px;
+    margin-left: 15px;
+}
+label{
+    font-size: 18px;
+    font-size: 20px;
+    font-style: initial;
+}
+input{
+    background-color: rgb(42, 169, 198);
+    border-radius: 5px;
+    border-width: 2px;
+
+}
+
+
+
+
+
+

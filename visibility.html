@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility</title>
+    <style>
+    span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.class2{
+display: none;
+}
+.class1:hover +.class2{
+    display: block;
+}
+.class4{
+    visibility: hidden;
+}
+.class3:hover + .class4{
+    visibility: visible;
+}
+.class5{
+    visibility: visible;
+}
+.class5:hover + table{
+    visibility: collapse;
+}
+    </style>
+</head>
+<body>
+<!-- display: none & display: block -->
+<!-- Content & space will not visible-->
+<p class="class1">Hover me for display using none property><span>Display:None</span></p>
+<span class="class2">Displayed</span>
+<!-- visiblity: hidden & visiblity visible-->
+<!-- Content and space will be visible-->
+<p class="class3"> Hover me for display using hidden property<span>Visibility:Hidden</span></p>
+<span class="class4">Visibility Hidden</span>
+
+<p class="class5" >The space will be collapsed<span>Visibility:Collapsed</span></p>
+<table><tr>Name</tr><tr>
+    <td>priya</td>
+    <td>varsha</td>
+    <td>Hrutu</td></tr></table>
+
+
+</body>
+</html>
