@@ -1,0 +1,56 @@
+.navbarClass{
+    background-color: rgb(231, 231, 218);
+    color: rgb(223, 56, 18);
+    text-align: center;
+}
+.vedio{
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+
+.text {
+    float: left;
+    line-height: 32px;
+    padding-right: 200px 50px;
+}
+
+.search-bar {
+    width: 600px;
+    padding: 10px;
+    margin: 0;
+    border-radius:10px;
+}
+
+.navv{
+     float: right;
+     margin-right: 15px 20px;
+     text-decoration: none;
+     margin-top: -35px;
+
+     
+}
+
+.divClas{
+    /*float:right ;*/
+    margin-left: 110vh;
+    margin-top: -85vh;
+    position: absolute;
+}
+.dClass{
+    /*float:right ;*/
+    margin-left: 110vh;
+    margin-top: -40vh;
+    position: absolute;
+}
+.diClas{
+    /*float:right ;*/
+    margin-right: 110vh;
+    margin-bottom: 75vh;
+    position: absolute;
+}
+.dicla{
+    /*float:right ;*/
+    margin-right: 110vh;
+    margin-bottom: 75vh;
+    position: absolute;
+}
