@@ -1,0 +1,35 @@
+#container{
+text-align: center;
+width: 350px;
+box-shadow: 0px 0px 30px 15px lightgrey;
+margin-top: 35px;
+margin-left: 32%;
+}
+#container .display {
+height: 70px;
+line-height: 90px;
+width: auto;
+border: 1px solid rgb(222, 16, 16);
+background-color: black;
+text-align: right;
+padding: 0px 10px;
+color: white;
+font-size: 20pt;
+font-weight: bold;
+}
+#buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+#buttons .button{
+border: 1px solid lightgrey;
+border-top: 1px solid lightgrey;
+border-right: 1px solid lightgrey;
+font-size: 20pt;
+line-height: 70px;
+cursor: pointer;
+}
+#buttons .button:hover{
+    background-color: honeydew;
+}
