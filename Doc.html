@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript validation</title>
+</head>
+<body>
+<img id="image" src="Flowers1.jpg" width="300px" height="500px" alt="image_src">
+<form name="myForm" action="HtmlJs.html"
+onsubmit="return validateForm()" target="_blank" method="get" autocomplete="off">
+<p id="color">Changing the color</p>
+<label for="name">Name:</label>
+<input type="text" name="fname" id="name" oninput="upperCase()" onfocus="focuss(this)">
+<button type="submit" onclick="change()">Submit</button>
+</form>
+<script>
+ function focuss(x){
+x.style.background="green";
+ }
+  function upperCase(){
+  const x=document.getElementById("name");
+  x.value=x.value.toUpperCase();
+  }
+
+    // This function will only be triggered when the validation is successful.
+    // However, it is better to move this code inside the validateForm function.
+    function change() {
+        const element = document.getElementsByTagName("p");
+        element[0].innerHTML = "Changed";
+        document.getElementById('color').style.color = 'red';
+        document.getElementById("image").src = "Nature.jpg";
+    }
+
+    function validateForm() {
+     const x = document.forms["myForm"]["fname"].value;
+        if (x =="") {
+    alert("Please enter a name.");
+// returning false here prevents the form from submitting and
+            // stops the onclick="change()" from running.
+ return false;
+}
+    }
+</script>
+</body>
+</html>
